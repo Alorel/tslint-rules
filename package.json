@@ -25,5 +25,17 @@
   "bugs": {
     "url": "https://github.com/Alorel/tslint-rules/issues"
   },
-  "homepage": "https://github.com/Alorel/tslint-rules#readme"
+  "homepage": "https://github.com/Alorel/tslint-rules#readme",
+  "release": {
+    "branch": "master",
+    "tagFormat": "${version}",
+    "prepare": [
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      "@semantic-release/git"
+    ],
+    "generateNotes": {
+      "config": "@alorel-personal/conventional-changelog-alorel"
+    }
+  }
 }
