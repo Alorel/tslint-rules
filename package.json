@@ -1,0 +1,29 @@
+{
+  "name": "@alorel-personal/tslint-rules",
+  "version": "0.0.0",
+  "description": "Personal TSLint rules repository",
+  "main": "index.json",
+  "scripts": {
+    "test": "echo \"You pass!\""
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^3.0.0",
+    "@semantic-release/git": "^7.0.1",
+    "@semantic-release/npm": "^4.0.1",
+    "semantic-release": "^15.8.1",
+    "@alorel-personal/conventional-changelog-alorel": "^1.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alorel/tslint-rules.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "Alorel <a.molcanovas@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Alorel/tslint-rules/issues"
+  },
+  "homepage": "https://github.com/Alorel/tslint-rules#readme"
+}
