@@ -2,7 +2,7 @@
   "name": "@alorel-personal/tslint-rules",
   "version": "0.0.0",
   "description": "Personal TSLint rules repository",
-  "main": "index.json",
+  "main": "tslint.json",
   "scripts": {
     "test": "echo \"You pass!\""
   },
