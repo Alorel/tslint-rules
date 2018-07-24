@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/Alorel/tslint-rules/compare/1.0.0...1.1.0) (2018-07-24)
+
+
+### Features
+
+* Remove switch-default rule ([29f7461](https://github.com/Alorel/tslint-rules/commit/29f7461))
+
+
+### Refactoring
+
+* Move release config to package.json ([8eca517](https://github.com/Alorel/tslint-rules/commit/8eca517))
+
 # 1.0.0 (2018-07-23)
 
 
