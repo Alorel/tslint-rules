@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/Alorel/tslint-rules/compare/1.2.0...1.2.1) (2018-08-09)
+
+
+### Bug Fixes
+
+* Add missing 100 to no-magic-numbers ([56e8f7a](https://github.com/Alorel/tslint-rules/commit/56e8f7a))
+
 # [1.2.0](https://github.com/Alorel/tslint-rules/compare/1.1.0...1.2.0) (2018-08-09)
 
 
