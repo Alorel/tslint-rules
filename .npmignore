@@ -4,3 +4,4 @@
 /git_gpg_keys.asc.enc
 /prepare-gpg-key.sh
 /.travis.yml
+/.releaserc.yml
