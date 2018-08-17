@@ -1,3 +1,17 @@
+## [1.2.2](https://github.com/Alorel/tslint-rules/compare/1.2.1...1.2.2) (2018-08-17)
+
+
+### Bug Fixes
+
+* **package:** Add yarn.lock to npmignore ([b3a428e](https://github.com/Alorel/tslint-rules/commit/b3a428e))
+
+
+### Maintenance
+
+* **package:** Move release config to separate file ([f46e1da](https://github.com/Alorel/tslint-rules/commit/f46e1da))
+* **package:** update [@alorel-personal](https://github.com/alorel-personal)/conventional-changelog-alorel to version 2.0.0 ([4e76d9a](https://github.com/Alorel/tslint-rules/commit/4e76d9a))
+* **package:** update [@alorel-personal](https://github.com/alorel-personal)/conventional-changelog-alorel to version 2.0.1 ([1b0192a](https://github.com/Alorel/tslint-rules/commit/1b0192a))
+
 ## [1.2.1](https://github.com/Alorel/tslint-rules/compare/1.2.0...1.2.1) (2018-08-09)
 
 

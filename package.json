@@ -1,6 +1,6 @@
 {
   "name": "@alorel-personal/tslint-rules",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Personal TSLint rules repository",
   "main": "tslint.json",
   "scripts": {
