@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/Alorel/tslint-rules/compare/1.2.2...2.0.0) (2018-09-04)
+
+
+### Bug Fixes
+
+* Allow spaces before function parens @ async arrow & anonymous ([3c8fdb9](https://github.com/Alorel/tslint-rules/commit/3c8fdb9))
+
+
+### BREAKING CHANGES
+
+* may require a tslint --fix
+
 ## [1.2.2](https://github.com/Alorel/tslint-rules/compare/1.2.1...1.2.2) (2018-08-17)
 
 
