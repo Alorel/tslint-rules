@@ -1,3 +1,15 @@
+# [3.0.0](https://github.com/Alorel/tslint-rules/compare/2.0.0...3.0.0) (2018-09-26)
+
+
+### Features
+
+* **config:** Add prefer-readonly rule ([c85eb68](https://github.com/Alorel/tslint-rules/commit/c85eb68))
+
+
+### BREAKING CHANGES
+
+* **config:** prefer-readonly now set to true
+
 # [2.0.0](https://github.com/Alorel/tslint-rules/compare/1.2.2...2.0.0) (2018-09-04)
 
 
