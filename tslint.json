@@ -271,6 +271,7 @@
       true,
       0
     ],
+    "prefer-readonly": true,
     "switch-final-break": true,
     "type-literal-delimiter": true,
     "variable-name": [
