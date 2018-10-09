@@ -1,3 +1,15 @@
+# [4.0.0](https://github.com/Alorel/tslint-rules/compare/3.0.0...4.0.0) (2018-10-09)
+
+
+### Features
+
+* Add tslint-sonarts ruleset. ([ac564a4](https://github.com/Alorel/tslint-rules/commit/ac564a4))
+
+
+### BREAKING CHANGES
+
+* A plethora of new rules have been introduced in sonarts.json and are likely to break existing applications.
+
 # [3.0.0](https://github.com/Alorel/tslint-rules/compare/2.0.0...3.0.0) (2018-09-26)
 
 
