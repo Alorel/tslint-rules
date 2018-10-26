@@ -1,3 +1,10 @@
+# [4.1.0](https://github.com/Alorel/tslint-rules/compare/4.0.0...4.1.0) (2018-10-26)
+
+
+### Features
+
+* Add the following allowed magic numbers: 999, 59, 23, 3600, 3600000, 86400, 86400000, 28, 30, 31 ([2ff406b](https://github.com/Alorel/tslint-rules/commit/2ff406b))
+
 # [4.0.0](https://github.com/Alorel/tslint-rules/compare/3.0.0...4.0.0) (2018-10-09)
 
 
