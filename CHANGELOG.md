@@ -1,3 +1,10 @@
+## [4.1.1](https://github.com/Alorel/tslint-rules/compare/4.1.0...4.1.1) (2018-11-10)
+
+
+### Bug Fixes
+
+* Add 60000 to allowed magic numbers ([c87dea5](https://github.com/Alorel/tslint-rules/commit/c87dea5))
+
 # [4.1.0](https://github.com/Alorel/tslint-rules/compare/4.0.0...4.1.0) (2018-10-26)
 
 
