@@ -2,13 +2,13 @@
 # yarn lockfile v1
 
 
-"@alorel-personal/conventional-changelog-alorel@2.0.4":
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/@alorel-personal/conventional-changelog-alorel/-/conventional-changelog-alorel-2.0.4.tgz#a8e3eb15c15889eee927d65e721d5298ac9f83d7"
-  integrity sha512-mHhrj4YxFljsDIExEqvjG5B82ywGI2dMWFHpwgk+WK3UZtYPsCpLbm2IutmpvnFbo4Iks0BDjI2m+o1hWuzGHQ==
+"@alorel-personal/conventional-changelog-alorel@2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@alorel-personal/conventional-changelog-alorel/-/conventional-changelog-alorel-2.1.0.tgz#f4aef2dc99f2908fc7d9805230a4083c55eb91cb"
+  integrity sha512-3rXA8PpAfyXbJ8H8Qg1ydhWTnVFyelxGYNrVVym1TJP9Hwy3hYjEBpvOcs0IwKrlbkuzCTKv3NQWpYZRYDstUQ==
   dependencies:
-    conventional-changelog-angular "^5.0.0"
-    json5 "^2.0.0"
+    conventional-changelog-angular "^5.0.3"
+    json5 "^2.1.0"
     lodash "^4.0.0"
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
@@ -824,6 +824,14 @@ conventional-changelog-angular@^5.0.0:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/conventional-changelog-angular/-/conventional-changelog-angular-5.0.1.tgz#f96431b76de453333a909decd02b15cb5bd2d364"
   integrity sha512-q4ylJ68fWZDdrFC9z4zKcf97HW6hp7Mo2YlqD4owfXhecFKy/PJCU/1oVFF4TqochchChqmZ0Vb0e0g8/MKNlA==
+  dependencies:
+    compare-func "^1.3.1"
+    q "^1.5.1"
+
+conventional-changelog-angular@^5.0.3:
+  version "5.0.3"
+  resolved "https://registry.yarnpkg.com/conventional-changelog-angular/-/conventional-changelog-angular-5.0.3.tgz#299fdd43df5a1f095283ac16aeedfb0a682ecab0"
+  integrity sha512-YD1xzH7r9yXQte/HF9JBuEDfvjxxwDGGwZU1+ndanbY0oFgA+Po1T9JDSpPLdP0pZT6MhCAsdvFKC4TJ4MTJTA==
   dependencies:
     compare-func "^1.3.1"
     q "^1.5.1"
@@ -2164,7 +2172,7 @@ json-stringify-safe@^5.0.1, json-stringify-safe@~5.0.1:
   resolved "https://registry.yarnpkg.com/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz#1296a2d58fd45f19a0f6ce01d65701e2c735b6eb"
   integrity sha1-Epai1Y/UXxmg9s4B1lcB4sc1tus=
 
-json5@^2.0.0:
+json5@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/json5/-/json5-2.1.0.tgz#e7a0c62c48285c628d20a10b85c89bb807c32850"
   integrity sha512-8Mh9h6xViijj36g7Dxi+Y4S6hNGV96vcJZr/SrlHh1LR/pEn/8j/+qIBbs44YKl69Lrfctp4QD+AdWLTMqEZAQ==
