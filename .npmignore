@@ -8,3 +8,6 @@
 /yarn.lock
 /generate.js
 /test.js
+/test-tslint.ts
+/test-tslint.js
+/tsconfig.json

@@ -2,3 +2,4 @@
 /.idea/
 /git_gpg_keys.asc
 /common.json
+/test-tslint.js
