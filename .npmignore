@@ -7,3 +7,4 @@
 /.releaserc.yml
 /yarn.lock
 /generate.js
+/test.js
