@@ -350,11 +350,7 @@ const rules = {
   'no-any': false,
   'no-null-undefined-union': false,
   'no-async-without-await': true,
-  'strict-comparisons': [
-    true,
-    'allow-object-equal-comparison',
-    'allow-string-order-comparison'
-  ],
+  'strict-comparisons': false,
   whitespace: [
     true,
     'check-branch',
