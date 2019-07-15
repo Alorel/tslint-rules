@@ -1,3 +1,10 @@
+## [5.0.2](https://github.com/Alorel/tslint-rules/compare/5.0.1...5.0.2) (2019-07-15)
+
+
+### Bug Fixes
+
+* add tags/existence to completed-docs ([42be9e5](https://github.com/Alorel/tslint-rules/commit/42be9e5))
+
 ## [5.0.1](https://github.com/Alorel/tslint-rules/compare/5.0.0...5.0.1) (2019-07-15)
 
 
