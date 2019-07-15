@@ -123,7 +123,20 @@ const rules = {
   'no-misused-new': true,
   'no-object-literal-type-assertion': true,
   'no-return-await': true,
-  'no-shadowed-variable': true,
+  'no-shadowed-variable': [
+    true,
+    {
+      class: true,
+      enum: true,
+      function: true,
+      import: true,
+      interface: true,
+      namespace: true,
+      typeAlias: true,
+      typeParameter: true,
+      underscore: false
+    }
+  ],
   'no-sparse-arrays': true,
   'no-string-throw': true,
   'no-switch-case-fall-through': true,
@@ -135,7 +148,8 @@ const rules = {
   ],
   'no-unbound-method': [
     true,
-    'ignore-static'
+    'allow-delete',
+    'allow-typeof'
   ],
   'no-unsafe-finally': true,
   'no-unused-expression': [
@@ -285,7 +299,61 @@ const rules = {
   'variable-name': [
     true,
     'check-format',
-    'allow-leading-underscore'
+    'allow-leading-underscore',
+    'require-const-for-all-caps',
+    'ban-keywords'
+  ],
+  'return-undefined': true,
+  'file-name-casing': false,
+  'strict-boolean-expressions': false,
+  'ban-ts-ignore': false,
+  'function-constructor': true,
+  'increment-decrement': false,
+  'no-default-import': false,
+  'unnecessary-constructor': true,
+  'comment-type': false,
+  'unnecessary-bind': true,
+  'no-restricted-globals': false,
+  'completed-docs': [
+    true,
+    (() => {
+      const exported = () => ({visibilities: ['exported']});
+      const privacies = () => ({privacies: ['protected', 'public']});
+
+      return {
+        classes: exported(),
+        enums: exported(),
+        'enum-members': false,
+        functions: {
+          overloads: true,
+          ...exported()
+        },
+        interfaces: exported(),
+        methods: {
+          locations: 'all',
+          ...privacies(),
+          ...exported()
+        },
+        namespaces: false,
+        properties: {
+          locations: 'all',
+          ...privacies()
+        },
+        types: exported(),
+        variables: exported()
+      };
+    })()
+  ],
+  'no-tautology-expression': true,
+  'static-this': false,
+  'unnecessary-else': false,
+  'no-any': false,
+  'no-null-undefined-union': false,
+  'no-async-without-await': true,
+  'strict-comparisons': [
+    true,
+    'allow-object-equal-comparison',
+    'allow-string-order-comparison'
   ],
   whitespace: [
     true,
