@@ -1,3 +1,10 @@
+## [5.0.1](https://github.com/Alorel/tslint-rules/compare/5.0.0...5.0.1) (2019-07-15)
+
+
+### Bug Fixes
+
+* Remove strict-comparisons rule ([9d43702](https://github.com/Alorel/tslint-rules/commit/9d43702))
+
 # [5.0.0](https://github.com/Alorel/tslint-rules/compare/4.1.1...5.0.0) (2019-07-15)
 
 
