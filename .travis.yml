@@ -8,6 +8,8 @@ before_install:
   - npm install -g greenkeeper-lockfile yarn
   - greenkeeper-lockfile-update
 
+before_script: node ./generate.js
+
 cache:
   yarn: true
 
