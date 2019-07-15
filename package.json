@@ -7,7 +7,7 @@
     "test": "echo \"You pass!\""
   },
   "dependencies": {
-    "tslint": "^5.11.0",
+    "tslint": "^5.18.0",
     "tslint-sonarts": "1.8.0",
     "typescript": ">=2.2.0 <4.0.0"
   },
