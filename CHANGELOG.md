@@ -1,3 +1,31 @@
+# [5.0.0](https://github.com/Alorel/tslint-rules/compare/4.1.1...5.0.0) (2019-07-15)
+
+
+### Dependency updates
+
+* **package:** update tslint to version 5.18.0 ([e67c405](https://github.com/Alorel/tslint-rules/commit/e67c405))
+* **package:** update tslint-sonarts to version 1.9.0 ([6af5840](https://github.com/Alorel/tslint-rules/commit/6af5840))
+
+
+### Features
+
+* Add SonarTS 1.9.0 rules ([26d669c](https://github.com/Alorel/tslint-rules/commit/26d669c))
+* Update standard tslint rules with additions between tslint 5.11.0 and 5.18.0 ([4af6bbb](https://github.com/Alorel/tslint-rules/commit/4af6bbb))
+
+
+### Maintenance
+
+* **deps:** bump fstream from 1.0.11 to 1.0.12 ([430f4c3](https://github.com/Alorel/tslint-rules/commit/430f4c3))
+* **deps:** bump handlebars from 4.0.12 to 4.1.2 ([d762a2d](https://github.com/Alorel/tslint-rules/commit/d762a2d))
+* **deps:** bump js-yaml from 3.12.0 to 3.13.1 ([fc87721](https://github.com/Alorel/tslint-rules/commit/fc87721))
+* **deps:** bump lodash from 4.17.11 to 4.17.14 ([2fbc2c9](https://github.com/Alorel/tslint-rules/commit/2fbc2c9))
+
+
+### BREAKING CHANGES
+
+* Tslint rules have changed
+* New rules from SonarTS added
+
 ## [4.1.1](https://github.com/Alorel/tslint-rules/compare/4.1.0...4.1.1) (2018-11-10)
 
 
