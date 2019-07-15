@@ -319,28 +319,42 @@ const rules = {
     (() => {
       const exported = () => ({visibilities: ['exported']});
       const privacies = () => ({privacies: ['protected', 'public']});
+      const tags = () => ({
+        tags: {
+          existence: [
+            'internal',
+            'inheritDoc',
+            'see'
+          ]
+        }
+      });
+      const exptags = () => ({
+        ...exported(),
+        ...tags()
+      });
 
       return {
-        classes: exported(),
-        enums: exported(),
+        classes: exptags(),
+        enums: exptags(),
         'enum-members': false,
         functions: {
           overloads: true,
-          ...exported()
+          ...exptags()
         },
-        interfaces: exported(),
+        interfaces: exptags(),
         methods: {
           locations: 'all',
           ...privacies(),
-          ...exported()
+          ...exptags()
         },
         namespaces: false,
         properties: {
           locations: 'all',
-          ...privacies()
+          ...privacies(),
+          ...tags()
         },
-        types: exported(),
-        variables: exported()
+        types: exptags(),
+        variables: exptags()
       };
     })()
   ],
