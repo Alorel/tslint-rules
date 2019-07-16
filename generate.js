@@ -253,10 +253,7 @@ const rules = {
     'check-open-brace',
     'check-whitespace'
   ],
-  'one-variable-per-declaration': [
-    true,
-    'ignore-for-loop'
-  ],
+  'one-variable-per-declaration': false,
   'ordered-imports': [
     true,
     {
