@@ -1,3 +1,12 @@
+## [5.0.3](https://github.com/Alorel/tslint-rules/compare/5.0.2...5.0.3) (2019-07-16)
+
+
+### Bug Fixes
+
+* rm one-variable-per-declaration ([f76c0b2](https://github.com/Alorel/tslint-rules/commit/f76c0b2))
+* Use ^ version range for tslint-sonarts ([0ee48ed](https://github.com/Alorel/tslint-rules/commit/0ee48ed)), closes [#15](https://github.com/Alorel/tslint-rules/issues/15)
+* Use array-simple type ([1d8f803](https://github.com/Alorel/tslint-rules/commit/1d8f803))
+
 ## [5.0.2](https://github.com/Alorel/tslint-rules/compare/5.0.1...5.0.2) (2019-07-15)
 
 
