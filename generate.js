@@ -213,7 +213,7 @@ const rules = {
   ],
   'array-type': [
     true,
-    'array'
+    'array-simple'
   ],
   'arrow-parens': [
     true,
