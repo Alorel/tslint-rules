@@ -1,3 +1,10 @@
+## [5.0.4](https://github.com/Alorel/tslint-rules/compare/5.0.3...5.0.4) (2019-07-16)
+
+
+### Bug Fixes
+
+* Reverted commit 1d8f8035 ([cc49a7b](https://github.com/Alorel/tslint-rules/commit/cc49a7b))
+
 ## [5.0.3](https://github.com/Alorel/tslint-rules/compare/5.0.2...5.0.3) (2019-07-16)
 
 
