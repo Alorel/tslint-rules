@@ -1,3 +1,10 @@
+## [5.0.5](https://github.com/Alorel/tslint-rules/compare/5.0.4...5.0.5) (2019-07-17)
+
+
+### Bug Fixes
+
+* Remove no-non-null-assertion rule ([8f9d643](https://github.com/Alorel/tslint-rules/commit/8f9d643))
+
 ## [5.0.4](https://github.com/Alorel/tslint-rules/compare/5.0.3...5.0.4) (2019-07-16)
 
 
