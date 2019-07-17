@@ -75,7 +75,7 @@ const rules = {
     65536
   ],
   'no-namespace': false,
-  'no-non-null-assertion': true,
+  'no-non-null-assertion': false,
   'no-reference': true,
   'no-unnecessary-type-assertion': true,
   'no-var-requires': true,
