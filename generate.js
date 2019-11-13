@@ -311,50 +311,51 @@ const rules = {
   'comment-type': false,
   'unnecessary-bind': true,
   'no-restricted-globals': false,
-  'completed-docs': [
-    true,
-    (() => {
-      const exported = () => ({visibilities: ['exported']});
-      const privacies = () => ({privacies: ['protected', 'public']});
-      const tags = () => ({
-        tags: {
-          existence: [
-            'internal',
-            'inheritDoc',
-            'see'
-          ]
-        }
-      });
-      const exptags = () => ({
-        ...exported(),
-        ...tags()
-      });
-
-      return {
-        classes: exptags(),
-        enums: exptags(),
-        'enum-members': false,
-        functions: {
-          overloads: true,
-          ...exptags()
-        },
-        interfaces: exptags(),
-        methods: {
-          locations: 'all',
-          ...privacies(),
-          ...exptags()
-        },
-        namespaces: false,
-        properties: {
-          locations: 'all',
-          ...privacies(),
-          ...tags()
-        },
-        types: exptags(),
-        variables: exptags()
-      };
-    })()
-  ],
+  'completed-docs': false,
+  // 'completed-docs': [
+  //   true,
+  //   (() => {
+  //     const exported = () => ({visibilities: ['exported']});
+  //     const privacies = () => ({privacies: ['protected', 'public']});
+  //     const tags = () => ({
+  //       tags: {
+  //         existence: [
+  //           'internal',
+  //           'inheritDoc',
+  //           'see'
+  //         ]
+  //       }
+  //     });
+  //     const exptags = () => ({
+  //       ...exported(),
+  //       ...tags()
+  //     });
+  //
+  //     return {
+  //       classes: exptags(),
+  //       enums: exptags(),
+  //       'enum-members': false,
+  //       functions: {
+  //         overloads: true,
+  //         ...exptags()
+  //       },
+  //       interfaces: exptags(),
+  //       methods: {
+  //         locations: 'all',
+  //         ...privacies(),
+  //         ...exptags()
+  //       },
+  //       namespaces: false,
+  //       properties: {
+  //         locations: 'all',
+  //         ...privacies(),
+  //         ...tags()
+  //       },
+  //       types: exptags(),
+  //       variables: exptags()
+  //     };
+  //   })()
+  // ],
   'no-tautology-expression': true,
   'static-this': false,
   'unnecessary-else': false,
