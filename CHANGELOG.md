@@ -1,3 +1,10 @@
+## [5.0.6](https://github.com/Alorel/tslint-rules/compare/5.0.5...5.0.6) (2019-11-13)
+
+
+### Bug Fixes
+
+* Remove completed-docs from common.json until they fix their error spam ([2b60354](https://github.com/Alorel/tslint-rules/commit/2b60354))
+
 ## [5.0.5](https://github.com/Alorel/tslint-rules/compare/5.0.4...5.0.5) (2019-07-17)
 
 
