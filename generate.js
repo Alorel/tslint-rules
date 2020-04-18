@@ -171,7 +171,7 @@ const rules = {
   'triple-equals': [
       true,
       'allow-null-check',
-      'allow-undefined-check
+      'allow-undefined-check'
   ],
   'use-isnan': true,
   'cyclomatic-complexity': [
