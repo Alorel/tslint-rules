@@ -166,9 +166,13 @@ const rules = {
     true,
     'check-else-if'
   ],
-  radix: true,
+  radix: false,
   'restrict-plus-operands': true,
-  'triple-equals': true,
+  'triple-equals': [
+      true,
+      'allow-null-check',
+      'allow-undefined-check
+  ],
   'use-isnan': true,
   'cyclomatic-complexity': [
     true,
@@ -274,7 +278,8 @@ const rules = {
   ],
   semicolon: [
     true,
-    'always'
+    'always'.
+    'strict-bound-class-methods
   ],
   'space-before-function-paren': [
     true,
