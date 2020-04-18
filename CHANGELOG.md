@@ -1,3 +1,15 @@
+## [5.0.7](https://github.com/Alorel/tslint-rules/compare/5.0.6...5.0.7) (2020-04-18)
+
+
+### Bug Fixes
+
+* Update some rules to be less annoying ([925cf24](https://github.com/Alorel/tslint-rules/commit/925cf24))
+
+
+### Maintenance
+
+* **deps:** bump npm from 6.10.1 to 6.13.4 ([9862d62](https://github.com/Alorel/tslint-rules/commit/9862d62))
+
 ## [5.0.6](https://github.com/Alorel/tslint-rules/compare/5.0.5...5.0.6) (2019-11-13)
 
 
