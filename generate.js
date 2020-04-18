@@ -278,7 +278,7 @@ const rules = {
   ],
   semicolon: [
     true,
-    'always'.
+    'always',
     'strict-bound-class-methods'
   ],
   'space-before-function-paren': [
