@@ -279,7 +279,7 @@ const rules = {
   semicolon: [
     true,
     'always'.
-    'strict-bound-class-methods
+    'strict-bound-class-methods'
   ],
   'space-before-function-paren': [
     true,
